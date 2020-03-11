@@ -7,6 +7,7 @@
         $body.removeClass('is-loading');
       }, 100);
     });
+    // move
     $("a").on('click',function(e){
       console.log(this.href);
       var txt = this.href,
